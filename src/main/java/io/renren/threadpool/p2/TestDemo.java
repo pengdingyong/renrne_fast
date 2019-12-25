@@ -11,7 +11,7 @@ public class TestDemo {
             pool.submit(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println("一个任务放入！");
+                    System.out.println("一个任务放入！ ");
                     try {
                         Thread.sleep(2000L);
                     } catch (InterruptedException e) {
